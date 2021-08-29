@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\DELL LATITUDE E7470T\source\repos\BudgetTracker\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.Themes" Path="C:\Users\DELL LATITUDE E7470T\.nuget\packages\syncfusion.blazor.themes\19.2.0.46\build\..\staticwebassets\" />
+</StaticWebAssets>

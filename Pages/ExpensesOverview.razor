@@ -1,0 +1,35 @@
+﻿@page "/expensesoverview"
+<h3>ExpensesOverview</h3>
+
+@if (Expenses == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Cost</th>
+                <th>Date of Expense</th>
+                <th>Category</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var expense in Expenses)
+            {
+                <tr>
+                    <td>@expense.Id</td>
+                    <td>@expense.Name</td>
+                    <td>@expense.Amount</td>
+                    <td>@expense.ExpenseDate</td>
+                    <td>@expense.Category</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
